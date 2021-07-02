@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.body {
+    width: 100vw;
+    height: 100vw;
+}
+.header {
+    width: 100rem;
+    height: 20rem;
+}
+
+#header-background{
+    width: 50rem;
+    height: 20rem;
+    background-size: 100% 100%;
+}
+
+#titre {
+    text-align: center;
+}
+
