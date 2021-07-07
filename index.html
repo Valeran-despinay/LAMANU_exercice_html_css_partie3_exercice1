@@ -12,10 +12,70 @@
 
 <body>
     <header>
-        <div id="header-background" style="background-image: url('assets/img/header.jpg');">
-            <h1 id="titre">Voyage & Co</h1>
-        </div>
+        <!-- possibe même mieux de mettre l'image dans le css -->
+        <h1>Voyage & Co</h1>
+
     </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Réservations</a></li>
+            <li><a href="#">Contact</a></li>
+            <!-- intégration d'un menu burger a partir du site "FONT AWESOME" -->
+            <li><i class="fas fa-bars fa-2x"></i></li>
+        </ul>
+        <form action="#" method="get">
+            <input type="text" name="text" class="search" placeholder="Recherchez ici!">
+            <input type="image" name="submit" class="submit" src="assets/img/loupe.png">
+        </form>
+        <!-- pour un bouton de recherche avec une image (loupe par ex) on peut utiliser un input type image -->
+        <!-- <input type="image" src="" alt=""> -->
+        <!-- redimesionnement d'image possible directement dans le input type image, même si la pratique est déconseillée -->
+    </nav>
+    <main>
+        <!-- Exercice 3, balise main pour le corps du site -->
+        <div id="presentation">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ipsa pariatur asperiores est
+                ducimus
+                veniam illum saepe, maxime eaque soluta quaerat perferendis accusamus molestiae error molestias iste
+                deleniti porro culpa.
+            </p>
+        </div>
+        <!-- Fin Exercice 3 Presentation -->
+        <!-- Exercice 4 Destination -->
+        <section id="partie4">
+            <div class="boxes">
+                <!-- Attribut alt important pour le référencement et pour les malvoyants -->
+                <img class="img" alt="dromadaire" src="./assets/img/dromadaire.jpg" />
+                <h2>Dromadaire</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ipsam dicta expedita totam itaque
+                    odio
+                    tenetur eos quibusdam minima tempore. Excepturi mollitia odio eaque, doloremque enim ratione autem
+                    quod
+                    omnis.</p>
+            </div>
+            <div class="boxes">
+                <img class="img" alt="pyramide" src="./assets/img/pyramide.jpg" />
+                <h2>Pyramide</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nihil quas id impedit commodi
+                    libero, possimus similique aperiam saepe voluptatem, consectetur iste repellendus voluptatibus ipsa
+                    cupiditate incidunt, modi non alias.</p>
+            </div>
+            <div class="boxes">
+                <img class="img" alt="oasis" src="./assets/img/oasis.jpg" />
+                <h2>Oasis</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam neque, deserunt similique nobis
+                    nulla
+                    numquam quae hic nemo iure dicta eos dolore id molestias suscipit! Aperiam voluptatem consequuntur
+                    veritatis qui?</p>
+            </div>
+            <!-- Script pour un menu burger -->
+            <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
+        </section>
+    </main>
+    <!-- Fin Exercice 4 Destination -->
 </body>
 
 </html>
